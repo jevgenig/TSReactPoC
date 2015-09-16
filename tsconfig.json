@@ -1,0 +1,20 @@
+{
+    "compileOnSave": "true",
+    "compilerOptions": {
+        "outDir": "./js",
+        "jsx": "react",
+        "module": "amd"
+    },
+    "filesGlob": [
+        "./ts/**/*.tsx",
+        "./ts/**/*.ts",
+        "./typings/**/*.ts"
+    ],
+    "files": [
+        "./ts/app.tsx",
+        "./ts/boot.ts",
+        "./typings/react/react.d.ts",
+        "./typings/requirejs/require.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}
