@@ -1,9 +1,7 @@
 require.config({
-    baseUrl: "js",
+    baseUrl: "ts",
     paths: {
         "react": "/bower_components/react/react-with-addons"
     }
 });
-require(["app"], function (main) {
-    new main.App();
-});
+require(["boot"]);
