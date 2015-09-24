@@ -9,10 +9,14 @@
         "./**/*.tsx"
     ],
     "files": [
+        "./app.ts",
         "./applications/app.ts",
         "./lib/react-global.d.ts",
         "./lib/react.d.ts",
         "./lib/require.d.ts",
+        "./react-global.d.ts",
+        "./react.d.ts",
+        "./require.d.ts",
         "./boot.tsx"
     ]
 }
