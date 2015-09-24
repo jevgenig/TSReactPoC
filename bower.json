@@ -1,0 +1,20 @@
+{
+  "name": "TSReactPoC",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jevgenig/TSReactPoC",
+  "authors": [
+    "Jevgeni Geimanen <jevgeni.geimanen@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.3",
+    "requirejs": "~2.1.20"
+  }
+}

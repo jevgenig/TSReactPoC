@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "jsx": "react",
+        "outDir": "../js"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx"
+    ],
+    "files": [
+        "./applications/app.ts",
+        "./lib/react-global.d.ts",
+        "./lib/react.d.ts",
+        "./lib/require.d.ts",
+        "./boot.tsx"
+    ]
+}

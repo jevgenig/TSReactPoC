@@ -4,6 +4,4 @@ require.config({
         "react": "/bower_components/react/react-with-addons"
     }
 });
-require(["app"], function (main) {
-    new main.App();
-});
+require(["boot"]);
